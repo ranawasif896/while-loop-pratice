@@ -1,0 +1,218 @@
+//#include<iostream>
+//#include<conio.h>
+//#include<cmath>
+//#include<iomanip>
+//using namespace std;
+//int main()
+//{
+//     int n;
+//     n=1;
+//     while(n<=10)
+//     {
+//         cout<<<<n"Pakistan";
+//         n++;
+//     }
+//
+//
+//     int n;
+//     n=1;
+//     while(n<=10)
+//     {
+//         cout<<n<<endl;
+//         n++;
+//     }
+//
+//
+//     int n=1;
+//     while(n<=5)
+//     {
+//         cout<<n<<"\t"<<n*n<<endl;
+//         n++;
+//     }
+//
+//
+//    int x=1,sum=0;
+//    
+//    while(x<=5)
+//    {cout<<"ENter a number::";
+//    cin>>x;
+//         cout<<x<<endl;
+//        sum+=x;
+//        x++;
+//    }
+//    cout<<"sum is::"<<sum<<endl;
+//
+//
+//
+//  int n,a=1;
+//  cout<<"Enter a number::";
+//  cin>>n;
+//  while(a<=10)
+//  {
+//  	cout<<n<<" "<<"="<<n*a<<endl;
+//  	a++;
+//  }
+//
+//
+//
+//
+//
+//int n,a,sum=0;
+//cout<<"Enter a number::";
+//cin>>n;
+//while(n!=0)
+//{
+//	int digit=n%10;
+//	sum=sum+digit;
+//	n=n/10;
+//}
+//cout<<"SUm is::"<<sum<<endl;
+//
+//
+//float x,n,a;
+//n=1,a=1;
+//cout<<"Enter a number::";
+//cin>>x;
+//while (n<=x){
+//	a=a*n;
+//	n++;
+//}
+//cout<<"Factorial is="<<x<<"="<<a; 
+//
+//
+//int deg=0;
+//double rad;
+//cout<<"Degree to radian::";
+//while(deg<=360){
+//	rad=deg*M_PI/180;
+//	cout<<deg<<setw(10)<<rad<<endl;
+//	deg+=10;
+//}
+//
+//float a,b;
+//a=2.0;
+//b=1;
+//while(a<=100)
+//{
+//	b=b+1/a;
+//	a+=2;
+//}
+//cout<<"Result is="<<b;
+//
+//
+//
+//int n,even,odd;
+//cout<<"Enter a number::";
+//cin>>n;
+//while(n>=0)
+//{
+//	if(n%2==0)
+//	even+=n;
+//	else
+//	odd+=n;
+//	n--;
+//	
+//}
+//cout<<"The sum is even number ::"<<even<<endl;
+//cout<<"The sum is odd number::"<<odd<<endl;
+//
+//
+//int n,a,r,sum=0;
+//
+//cout<<"Enter a number::";
+//cin>>n;
+//n=a;
+//while(n!=0)
+//{
+//	r=n%10;
+//	sum+=(r*r*r);
+//	n/=10;
+//	
+//}
+//if(sum==a)
+//cout<<a<<"is an armstrong ::";
+//else
+//cout<<a<<"is not an armstrong::";
+//
+//
+//
+//
+//float n,sum=0,count=0;
+//while(n>0)
+//{
+//	cout<<"Enter a number::";
+//	cin>>n;
+//	if(n<0)
+//	break;
+//	{
+//	
+//	count++;
+//	sum+=n;
+//}
+//	float avg=sum/count;
+//}
+//
+//
+//
+//int countw=1;
+//int countch=0;
+//cout<<"Enter a number::";
+//char ch;
+//while(true)
+//{
+//	ch=cin.get();
+//	if(ch=='\n')
+//	break;
+//	if(ch==' ')
+//	countw++;
+//	else
+//	countch++;
+//}
+//cout<<"Total words is::"<<countw<<endl;
+//cout<<"Total character is::"<<countch<<endl;
+//
+//
+//
+//int x,y,count,next;
+//x=1,y=1;
+//cout<<x<<"\t"<<y;
+//count=2;
+//while(count<=10)
+//next=a+b;
+//count<<setw(10)<<next;
+//count++;
+//a=b;
+//b=next;
+//
+//
+//int a=1,b=1,next=2,count=2;
+//cout<<a<<"\t"<<b<<"\t";
+//while(count<=10)
+//{
+//	a=b;
+//	b=next;
+//	next=a+b;
+//	cout<<"\t"<<next;
+//	count++;}
+//
+//
+//
+//int l,a=0,b=1,n=0;
+//cout<<"Enter a number::";
+//cin>>l;
+//while(n<l)
+//{
+//	a=b;
+//	b=n;
+//	n=a+b;
+//	
+//}
+//if(n==l)
+//cout<<"is a fabonnic number::";
+//else
+//cout<<"is not a faboonic number::";
+//
+//
+//
+//    return 0;
+//}
