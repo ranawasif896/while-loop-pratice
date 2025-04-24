@@ -160,7 +160,7 @@
 //char ch;
 //while(true)
 //{
-//	ch=cin.get();
+//	ch=cin.get();     //Ye ek input function hai jo ek character (letter, space, enter, etc.) read karta hai, including spaces aur enter bhi.
 //	if(ch=='\n')
 //	break;
 //	if(ch==' ')
