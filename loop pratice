@@ -52,11 +52,10 @@
 //  	cout<<n<<" "<<"="<<n*a<<endl;
 //  	a++;
 //  }
-//
-//
-//
-//
-//
+
+
+
+/
 //int n,a,sum=0;
 //cout<<"Enter a number::";
 //cin>>n;
